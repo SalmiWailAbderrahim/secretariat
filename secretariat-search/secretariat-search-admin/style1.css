@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+    min-height: 80vh;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px; 
+    color: black;
+    background-color: #d0dfe8;
+    }
+    input, textarea { 
+    outline: none;
+    }
+    body {
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+    }
+    .cont{
+        margin-left:20% ;
+        margin-top: 5%;
+        width: 80%;
+    }
+    h1,h3,p {
+    margin-top: 0;
+    font-weight: 500;
+    }
+    form {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    background-color: #FF6347 ;
+
+    }
+    .form-left-decoration,
+    .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: #d0dfe8;
+    }
+    .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+    }
+    .form-right-decoration {
+    top: 60px;
+    right: -30px;
+    }
+    .form-left-decoration:before,
+    .form-left-decoration:after,
+    .form-right-decoration:before,
+    .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: #FF6347;
+    }
+    .form-left-decoration:before {
+    top: -20px;
+    }
+    .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+    }
+    .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+    }
+    .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+    }
+    .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#FF6347;
+    }
+    .form-inner {
+    padding: 30px;
+    }
+    .form-inner input,
+    .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+    }
+    .form-inner textarea {
+    resize: none;
+    }
+    .btn1 {
+    width: 49%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #d0dfe8 ; 
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+       }
+       .btn{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-weight: bolder;
+          width: 130px;
+          height: 40px ;
+          background-color: #FF6347;
+          color: black;
+       }
+#cabinet{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+    }

@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+  }
+
+/*header*/
+/* -------------------------------------------------- */ 
+.buttons{
+  display: flex;
+  justify-content: space-between;
+ }
+ .btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    width: 130px;
+    height: 40px ;
+    background-color: #FF6347 ;
+ }
+
+/*body*/
+/* -------------------------------------------------- */ 
+  body{
+    background-color: #d0dfe8;
+    font-family: 'Lato' !important;
+    width: auto;
+    height: auto;
+  }
+  #leftbox {
+    text-decoration-color: #fff;
+    margin: 30px 0 3% 1px ;
+    float:left;
+    background: #fFBA93;
+    width: 28%;
+    min-height:auto;
+    padding: 4px;
+  }
+  .search-box{
+    width: 500px;
+    margin-left: 45%;
+    margin-top: 16%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-search{
+    height: 50px;
+    width: 250px;
+    border-style: none;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-right: 40px;
+    background-color: transparent;
+    border-bottom:1px solid black;
+    outline: none;
+
+  }
+  #small{
+    margin-left:25px ;
+    width: 150px;
+    
+    
+  }
+  .input-search::placeholder{
+    color:black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+
+  }
+  .btn-search{
+    margin-left:10px;
+    position: relative;
+    width:50px; 
+    height: 50px;
+    border-radius: 50px ;
+    background-color: #FF6347;
+  }
+  /*  footer   */
+ /* -------------------------------------------------- */
+  footer {
+      background-color: #222;
+      color: #fff;
+      font-size: 14px;
+      bottom: 0;
+      position: fixed;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 999;
+  }
+  
+  footer p {
+      margin: 10px 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+/*list docteurs*/
+/* -------------------------------------------------- */ 
+.container{
+  margin-left:10% ;
+  margin-top: 10%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;  
+}
+.table{
+  width: 100%;
+  font-family: Calibri,Times;
+  color: black;
+  background-color: #fff;
+  font-size: large;
+}
+table,td,th{
+  border-collapse: collapse;
+  border: 1px #DDDDDD solid;
+}
+td,th{
+  height: 35px;
+}
+th{
+  background-color: #FF6347;
+  color: #fff;
+  font-size: large;
+}
+.colnom{
+  text-align: center;
+  width: 25%;
+}
+.colesp{
+  text-align: center;
+  width: 23%;
+}
+.coltel{
+  text-align: center;
+  width: 18%;
+}
+.colemail{
+  text-align: center;
+}
+.col{
+  text-align: center;
+}
+.coldate{
+  text-align: center;
+  width: 13%;
+}
+.colmsg{
+  text-align: center;
+  width: 40%;
+}
+.abtn{
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+
+  padding: 10px 12px;
+  text-align: center;
+
+}
+.tab{
+
+  margin:50px 32%;
+  width: 65%;
+}
+a{
+  color: rgb(84, 84, 84);
+  text-decoration: none;
+}
+.thatcolor a:hover{
+  color: royalblue;
+  text-decoration: underline;
+}
+
+.msg{
+  font-size: large;
+}
